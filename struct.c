@@ -26,9 +26,9 @@ printf("\nst3.lastName = %c\n", st3.lastName); //st3객체의 lastname 출력
 printf("st3.studentId = %d\n", st3.studentId); //st3객체의 studentId 출력
 printf("st3.grade = %c\n", st3.grade); //st3객체의 grdae 출력
 /* equality test */
-/* if(st3 == st2) not working 
+if(st3.lastName == st2.lastName&&st3.studentId==st3.studentId&&st3.grade==st2.grade) 
 printf("equal\n");
 else
-printf("not equal\n");*/
+printf("not equal\n");
 return 0;
 }
